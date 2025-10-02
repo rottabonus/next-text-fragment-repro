@@ -1,0 +1,13 @@
+services:
+  flask:
+    image: flask-hello
+    build: ./flask-app
+    ports:
+      - "3000:3000"
+
+  next:
+    image: nextjs-hello
+    build: ./next-app
+    ports:
+      - "3001:3000"
+

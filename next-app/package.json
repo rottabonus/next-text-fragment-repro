@@ -1,0 +1,18 @@
+{
+  "name": "nextjs-hello",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out -l 3000"
+  },
+  "dependencies": {
+    "@types/react": "19.2.0",
+    "next": "15.5.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "serve": "14.2.5",
+    "typescript": "5.9.3"
+  }
+}
