@@ -11,3 +11,8 @@ services:
     ports:
       - "3001:3000"
 
+  astro:
+    image: astro-hello
+    build: ./astro-app
+    ports:
+      - "3002:3000"
